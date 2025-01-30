@@ -5,7 +5,7 @@ import {Maths} from "../libraries/Maths.sol";
 import {Governance} from "../utils/Governance.sol";
 import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import {SafeERC20} from "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
-import {ReentrancyGuard} from "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+import {ReentrancyGuard} from "../../lib/openzeppelin-contracts/contracts/security/ReentrancyGuard.sol";
 import {ITaker} from "../interfaces/ITaker.sol";
 
 /// @notice Interface that the optional `hook` contract should implement if the non-standard logic is desired.
